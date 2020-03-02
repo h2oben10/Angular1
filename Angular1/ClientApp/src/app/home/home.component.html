@@ -1,0 +1,44 @@
+<div class="grid-container">
+  <div class="header">
+    <img src="assets/logo.png" />
+    <h1>ระบบจัดการเอกสารด้านยา</h1>
+  </div>
+
+  
+  <table class="content">
+    <tr>
+      <th>ค้นหา</th>
+    </tr><br />
+    <tr>
+      <td>เลขทะเบียน</td>
+      <td><input type="text" placeholder="เลขทะเบียน" /></td>
+    </tr>
+    <br>
+    <tr>
+      <td>เลขรับ</td>
+      <td><input type="text" placeholder="เลขรับ"/></td>
+    </tr>
+    <br>
+    <tr>
+    <td>สถานะของเอกสาร</td>
+    <td>
+      <select>
+        <option value="">กรุณาเลือก</option>
+        <option *ngFor="let status of statuse">
+          {{status}}
+        </option>
+      </select>
+    </td>
+    </tr><br>
+         <tr>
+           <td></td>
+           <td><button>ค้นหา</button></td>
+           <td><button>ค้นหา</button></td>
+         </tr>
+
+  </table>
+  
+  <div class="footer">
+
+  </div>
+</div>

@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+/*a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}*/
+
+/*body {
+  margin: 0px;
+  padding: 0px;
+ 
+}*/
+
+.grid-container {
+  display: grid;
+  grid-template: "header header"
+                 "content content"
+                 "footer footer";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 250px 300px 50px;
+  background-color: #FFFFE0
+}
+
+.header {
+  grid-area: header;
+  background-color: #FFFFE0
+}
+
+.content {
+  grid-area: content;
+  background-color: #FFFFE0
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+/*.footer {
+  grid-area: footer;
+  background-color: #FFFFE0
+}*/
+
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
